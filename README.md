@@ -23,7 +23,57 @@ The dataset consists of multiple CSV files:
 
 ### How does shipping mode affect delivery times and customer satisfaction? Which shipping modes are most reliable?
 
+![Figure 1.1: Delivery Times by Shipping Mode](Images/# Business Analysis Report
+
+## 1. Operational Efficiency
+
+### How does shipping mode affect delivery times and customer satisfaction? Which shipping modes are most reliable?
+
 ![Figure 1.1: Delivery Times by Shipping Mode](Images/Shipping_Mode_by_Delivery_Time.png)
+
+**Figure 1.1**: Delivery Times by Shipping Mode
+
+From **Figure 1.1**, we observe the following trends:
+- **Same Day Delivery**: Although expected to deliver in 0 days, it consistently takes at least 1 day.
+- **First Class Delivery**: Expected delivery in 1 day but consistently takes 2 days minimum.
+- **Second Class Delivery**: Occasionally on schedule, but averages 4 days (twice the expected 2 days).
+- **Standard Class**: The most reliable mode, with delivery times aligning closely to expectations.
+
+![Figure 1.2: Delivery Status Distribution by Shipping Mode](Images/Delivery_Status_Distribution_by_Shipping_Mode.png)
+
+**Figure 1.2**: Delivery Status Distribution by Shipping Mode
+
+In **Figure 1.2**:
+- **Standard Time** and **Same Day Shipping**: Both deliver on time or early around 50% of the time.
+- **Second Class**: Achieves on-time delivery for only 20% of orders.
+- **First Class**: Records no on-time deliveries.
+- Each mode experiences about 5% canceled shipments.
+
+**Conclusion**: **First Class** shipping requires improvements in speed or reconsideration. Standard and Second Class also warrant optimizations to improve on-time rates.
+
+---
+
+### What is the average delay in delivery time, and how often do orders arrive late?
+
+![Figure 1.3: Late Delivery Distribution](Images/Late_Delivery_Distribution.png)
+
+**Figure 1.3**: Late Delivery Distribution
+
+On average, orders are delayed by **1.62 days**, affecting **0.57%** of all shipments. **Figure 1.3** reveals that most late deliveries are delayed by only 1 day, but **40%** of delayed shipments take 2 or more days to arrive.
+
+---
+
+### What regions have the highest late delivery rates? What is the relationship to their distance?
+
+![Figure 1.4: Order Distance Distribution by Delivery Status](Images/Order_Distance_Distribution_by_Delivery.png)
+
+**Figure 1.4**: Order Distance Distribution by Delivery Status
+
+Regions with the highest late delivery rates include **República Democrática del Congo** (62% of orders late), followed by:
+- Nicaragua, Egipto, Austria, Alemania, India, El Salvador, Filipinas, Indonesia, and Francia, each with more than 58% of orders arriving late.
+
+In **Figure 1.4**, we see that distance has minimal impact on delivery timeliness; the distribution of distances for late versus on-time deliveries is nearly identical.
+.png)
 
 **Figure 1.1**: Delivery Times by Shipping Mode
 
