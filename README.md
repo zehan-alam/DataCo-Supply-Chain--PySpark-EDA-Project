@@ -108,3 +108,46 @@ From the figure below, we can see that the **Fishing** category has the highest 
 | Average Profit Ratio     | 0.1202                   | 0.1275                   |
 
 It seems like for regular products, the profit was greater by a huge margin than for discounted products. However, the average profit ratio is almost similar, indicating that discounted and regular products have similar profit margins.
+
+## 3. Customer and Market Analysis
+
+### How do customer segments differ in purchasing behavior?
+![Sales by Customer Segment](Images/Sales_by_Customer_Segment.png)
+*Figure 3.1: Sales by Customer Segment*
+
+![Profit by Customer Segment](Images/Profit_by_Customer_Segment.png)
+*Figure 3.2: Profit by Customer Segment*
+
+From Figures 3.1 and 3.2, we observe that both total revenue and profit are predominantly driven by **Consumers**, who contribute to half of the sales. The remaining revenue and profit are divided between **Corporate** customers (30%) and **Home Office** customers (20%).
+
+### Which markets perform the best in terms of sales and profit?
+![Sales by Region](Images/Sales_By_Region.png)
+*Figure 3.3: Sales by Region*
+
+![Profit by Region](Images/Profit_by_Region.png)
+*Figure 3.4: Profit by Region*
+
+In Figures 3.3 and 3.4, it’s clear that **Western Europe** and **Central America** are the top-performing markets, each generating approximately **$5.8 million** in revenue. **South America** follows with nearly **$3 million** in revenue, while all other regions report revenue below **$2.2 million**.
+
+### What regions have the highest customer demand for certain product categories?
+**Western Europe**, **Central America**, and **South America** show strong customer demand for **Cleats**, **Men’s Footwear**, and **Women’s Apparel**. Similar preferences are observed in other regions, though at varying levels of demand.
+
+## 4. Fraud and Risk Analysis
+
+### Are there patterns in suspected fraudulent orders?
+We calculated the ratio of suspected fraud cases across different regions, countries, and product categories to identify patterns and areas of concern.
+
+![Suspected Fraud by Region](Images/Suspected_Fraud_by_Region.png)
+*Figure 4.1: Suspected Fraud by Region*
+
+From Figure 4.1, fraud ratios appear highest in **Canada**, the **Western USA**, and **Southern Africa**. However, these regions don’t exhibit significantly higher fraud rates than others, suggesting that suspected fraud is somewhat evenly distributed.
+
+![Suspected Fraud by Country](Images/Suspected_Fraud_by_Country.png)
+*Figure 4.2: Suspected Fraud by Country*
+
+Figure 4.2 reveals that **Ethiopia** has a markedly high fraud ratio, with **25%** of its orders flagged as suspected. Other countries with higher fraud rates include **Guinea**, **Hong Kong**, **Syria**, and **Martinique**, each with suspected fraud ratios exceeding **10%**. Heightened fraud monitoring is recommended in these countries.
+
+![Suspected Fraud by Category](Images/Suspected_Fraud_by_Category.png)
+*Figure 4.3: Suspected Fraud by Category*
+
+As shown in Figure 4.3, the **Basketball** and **Women’s Golf Club** categories experience a notably high level of suspected fraud. Orders within these categories should be carefully reviewed to prevent fraudulent transactions.
