@@ -151,3 +151,106 @@ Figure 4.2 reveals that **Ethiopia** has a markedly high fraud ratio, with **25%
 *Figure 4.3: Suspected Fraud by Category*
 
 As shown in Figure 4.3, the **Basketball** and **Women’s Golf Club** categories experience a notably high level of suspected fraud. Orders within these categories should be carefully reviewed to prevent fraudulent transactions.
+
+## 5. Customer Engagement Analysis:
+
+### Which categories and products receive the most user visits?
+
+<p align="center">
+  <img src="Images/Most_Visited_Department.png" alt="Most Visited Department" width="600"/>
+</p>
+<p align="center"><em>Figure 5.1: Most Visited Department</em></p>
+
+From Figure 5.1, we observe that all departments receive a relatively equal amount of visitor traffic, indicating consistent user interest across various departments.
+
+<p align="center">
+  <img src="Images/Most_Visted_Category.png" alt="Most Visited Category" width="600"/>
+</p>
+<p align="center"><em>Figure 5.2: Most Visited Category</em></p>
+
+In Figure 5.2, we see that most categories experience similar visitor counts, although certain categories attract slightly more traffic. Notable categories with elevated visitor numbers include **Cleats**, **Shop by Sport**, **Featured Shops**, **Women’s Apparel**, **Men’s Footwear**, and **Girls’ Apparel**.
+
+<p align="center">
+  <img src="Images/Most_Visted_Product.png" alt="Most Visited Product" width="600"/>
+</p>
+<p align="center"><em>Figure 5.3: Most Visited Products</em></p>
+
+From Figure 5.3, we can see the most visited products are:
+- **Perfect Fitness Perfect Rip Deck**
+- **adidas Kids' RG III Mid Football Cleat**
+- **Nike Men's Dri-FIT Victory Golf Polo**
+- **Nike Men's CJ Elite 2 TD Football Cleat**
+
+Each of these products garnered over 20,000 visits from customers.
+
+### Which times receive the most user visits?
+
+The data indicates a spike in visits in **September**, possibly due to a special event or promotion not specified in the dataset.
+
+<p align="center">
+  <img src="Images/Most_Visits_by_Weekday.png" alt="Most Visited Weekday" width="600"/>
+</p>
+<p align="center"><em>Figure 5.4: Most Visited Weekday</em></p>
+
+From Figure 5.4, we see that **Thursdays** experience the highest traffic, while other weekdays have roughly equal visitor numbers.
+
+<p align="center">
+  <img src="Images/Most_Visit_by_Hour.png" alt="Most Visited Hour" width="600"/>
+</p>
+<p align="center"><em>Figure 5.5: Most Visited Hour</em></p>
+
+In Figure 5.5, user visits generally occur between **9 AM and 11 PM**. Morning visits increase gradually, peak around **8–9 PM**, and taper off after **12 PM**, with a notable resurgence after **6 PM**.
+
+# Summary
+
+## 1. Operational Efficiency
+
+### How does shipping mode affect delivery times and customer satisfaction? Which shipping modes are most reliable?
+- **Same Day** and **First Class** frequently miss delivery time expectations, while **Standard Class** is most reliable.
+- **Second Class** has a low on-time rate of 20%, and **First Class** records no on-time deliveries.
+
+### What is the average delay in delivery time, and how often do orders arrive late?
+- Orders experience an average delay of **1.62 days**, with **0.57%** of all shipments delayed. Most delayed shipments are only 1 day late.
+
+### What regions have the highest late delivery rates? What is the relationship to their distance?
+- **República Democrática del Congo** (62%) and several other countries have high late delivery rates, but delivery delays show minimal correlation with order distance.
+
+## 2. Financial Analysis
+
+### What is the average profit per order?
+- Average profit per order is **$21.97**, with a wide range from losses up to **$-4274.98** to a maximum profit of **$911.80**. A 27% average profit margin is observed.
+
+### What is the return on discounts provided to customers?
+- Discounts yield **$1.84** profit per dollar, showing a favorable average return, though variability exists in the outcome of discounted sales.
+
+### Which product categories generate the most revenue and profit?
+- **Fishing** is the highest-earning category, with significant revenue also from **Cleats**, **Camping & Hiking**, and **Women’s Apparel**.
+
+### How do discounts affect overall profitability?
+- Regular-price products have higher profit totals, but average profit margins are similar for both discounted and non-discounted products.
+
+## 3. Customer and Market Analysis
+
+### How do customer segments differ in purchasing behavior?
+- **Consumers** drive 50% of sales, followed by **Corporate** (30%) and **Home Office** (20%) segments.
+
+### Which markets perform the best in terms of sales and profit?
+- **Western Europe** and **Central America** lead in revenue and profit, generating nearly **$5.8 million** each, with **South America** close behind.
+
+### What regions have the highest customer demand for certain product categories?
+- **Cleats**, **Men’s Footwear**, and **Women’s Apparel** have high demand in **Western Europe**, **Central America**, and **South America**.
+
+## 4. Fraud and Risk Analysis
+
+### Are there patterns in suspected fraudulent orders?
+- **Canada**, **Western USA**, and **Southern Africa** have higher fraud ratios, though not markedly distinct from other regions.
+- **Ethiopia** has a 25% fraud suspicion rate, with high rates also in **Guinea**, **Hong Kong**, and **Syria**.
+- **Basketball** and **Women’s Golf Club** categories show high suspected fraud, suggesting a need for close monitoring.
+
+## 5. Customer Engagement Analysis
+
+### Which categories and products receive the most user visits?
+- All departments receive equal traffic, with **Cleats**, **Women’s Apparel**, and **Men’s Footwear** slightly leading. High-visit products include **Perfect Rip Deck** and **Nike Men's Dri-FIT Victory Golf Polo**.
+
+### Which times receive the most user visits?
+- **September** sees peak visits, likely due to promotions or events. **Thursdays** have the highest weekly visits, with peak activity around **8-9 PM** each day.
