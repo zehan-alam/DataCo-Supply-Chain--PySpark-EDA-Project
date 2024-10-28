@@ -24,7 +24,7 @@ The dataset consists of multiple CSV files:
 
 ### How does shipping mode affect delivery times and customer satisfaction? Which shipping modes are most reliable?
 
-![Figure 1.1: Delivery Times by Shipping Mode](Images/Shipping Mode by Delivery Time.png)
+![Figure 1.1: Delivery Times by Shipping Mode](Images/Shipping%20Mode%20by%20Delivery%20Time.png)
 
 From **Figure 1.1**, we observe the following trends:
 - **Same Day Delivery**: Although expected to deliver in 0 days, it consistently takes at least 1 day.
