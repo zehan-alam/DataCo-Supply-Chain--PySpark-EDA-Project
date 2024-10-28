@@ -75,7 +75,36 @@ On average, orders are delayed by **1.62 days**, affecting **0.57%** of all ship
     <br>
 </div>
 
-Regions with the highest late delivery rates include **República Democrática del Congo** (62% of orders late), followed by:
-- Nicaragua, Egipto, Austria, Alemania, India, El Salvador, Filipinas, Indonesia, and Francia, each with more than 58% of orders arriving late.
+Regions with the highest late delivery rates include **República Democrática del Congo** (62% of orders late), followed by Nicaragua, Egipto, Austria, Alemania, India, El Salvador, Filipinas, Indonesia, and Francia, each with more than 58% of orders arriving late.
 
 In **Figure 1.4**, we see that distance has minimal impact on delivery timeliness; the distribution of distances for late versus on-time deliveries is nearly identical.
+
+## 2. Financial Analysis:
+
+### What is the average profit per order?
+The average profit per order is **$21.97**, indicating that while some orders result in significant losses, the overall performance remains positive. The maximum profit achieved was **$911.80**, demonstrating the potential for high returns, whereas the maximum loss reached **$-4274.98**, highlighting the risk of unprofitable orders. 
+
+The profits are concentrated, and a more granular look shows that approximately 25% of orders generate profits of **$6.75 or less**, while the median profit stands at **$30.86**, reflecting that half of the orders exceed this amount. A 75% percentile profit of **$63.16** indicates that a quarter of orders yield even higher returns.
+
+The Order Item Profit Ratio has a mean of **0.1206**, suggesting that, on average, orders yield a profit margin of about **12%**. The standard deviation of **0.4668** implies considerable variation, with some orders experiencing losses up to **-2.75** and others yielding a maximum profit ratio of **0.50**. The 25% percentile profit ratio of **0.07** suggests that a significant portion of orders has a low profit margin, while a median profit ratio of **0.27** shows that half of the orders are more profitable.
+
+### What is the return on discounts provided to customers?
+For customers who received discounts, the return on discount (calculated as Order Profit Per Order divided by Order Item Discount) averages **2.23**, meaning for every dollar discounted, the company earns over **$2** in profit. The standard deviation of **14.13** indicates variability in return rates, with a minimum return of **-272.24** showcasing instances where discounts led to substantial losses. Conversely, the maximum return of **49.82** illustrates the potential for significant profit from discounted sales.
+
+The approximate median return of **1.84** and the 25% and 75% percentiles of **0.46** and **4.47**, respectively, reinforce that while many discounted orders yield a good return, some yield minimal returns.
+
+### Which product categories generate the most revenue and profit?
+From the figure below, we can see that the **Fishing** category has the highest revenue and profit, generating almost **$7,000,000** in revenue. The categories with good total revenue and profit include: **Cleats**, **Camping & Hiking**, **Cardio Equipment**, **Women's Apparel**, **Water Sports**, **Men's Footwear**, and **Indoor/Outdoor Games**.
+
+![Revenue by Category](Images/Revenue_by_Category.png)
+*Figure 2.1: Revenue by Category*
+
+### How do discounts affect overall profitability?
+
+|                          | Discounted Products      | Regular Price Products  |
+|--------------------------|--------------------------|--------------------------|
+| Total Profit             | $3,699,490.57            | $267,412.40              |
+| Average Profit           | $21.70                   | $26.67                   |
+| Average Profit Ratio     | 0.1202                   | 0.1275                   |
+
+It seems like for regular products, the profit was greater by a huge margin than for discounted products. However, the average profit ratio is almost similar, indicating that discounted and regular products have similar profit margins.
