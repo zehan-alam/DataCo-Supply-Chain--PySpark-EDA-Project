@@ -22,7 +22,7 @@ The dataset consists of multiple CSV files:
 
 ### How does shipping mode affect delivery times and customer satisfaction? Which shipping modes are most reliable?
 
-![Figure 1.1: Delivery Times by Shipping Mode](Images/Shipping_Mode_by_Delivery_Time.png)
+![Figure 1.1: Delivery Times by Shipping Mode](Images/Shipping_Mode_by_Delivary_Time.png)
 
 **Figure 1.1**: Delivery Times by Shipping Mode
 
