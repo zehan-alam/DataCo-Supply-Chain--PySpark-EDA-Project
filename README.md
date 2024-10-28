@@ -24,9 +24,10 @@ The dataset consists of multiple CSV files:
 ### How does shipping mode affect delivery times and customer satisfaction? Which shipping modes are most reliable?
 
 <div align="center">
-    <img src="Images/Shipping_Mode_by_Delivery_Time.png" alt="Figure 1.1: Delivery Times by Shipping Mode">
+    <img src="Images/Shipping_Mode_by_Delivary_Time.png" alt="Figure 1.1: Delivery Times by Shipping Mode">
     <br>
     <b>Figure 1.1:</b> Delivery Times by Shipping Mode
+    <br>
 </div>
 
 From **Figure 1.1**, we observe the following trends:
@@ -39,6 +40,7 @@ From **Figure 1.1**, we observe the following trends:
     <img src="Images/Delivery_Status_Distribution_by_Shipping_Mode.png" alt="Figure 1.2: Delivery Status Distribution by Shipping Mode">
     <br>
     <b>Figure 1.2:</b> Delivery Status Distribution by Shipping Mode
+    <br>
 </div>
 
 In **Figure 1.2**:
@@ -57,6 +59,7 @@ In **Figure 1.2**:
     <img src="Images/Late_Delivery_Distribution.png" alt="Figure 1.3: Late Delivery Distribution">
     <br>
     <b>Figure 1.3:</b> Late Delivery Distribution
+    <br>
 </div>
 
 On average, orders are delayed by **1.62 days**, affecting **0.57%** of all shipments. **Figure 1.3** reveals that most late deliveries are delayed by only 1 day, but **40%** of delayed shipments take 2 or more days to arrive.
@@ -69,6 +72,7 @@ On average, orders are delayed by **1.62 days**, affecting **0.57%** of all ship
     <img src="Images/Order_Distance_Distribution_by_Delivery.png" alt="Figure 1.4: Order Distance Distribution by Delivery Status">
     <br>
     <b>Figure 1.4:</b> Order Distance Distribution by Delivery Status
+    <br>
 </div>
 
 Regions with the highest late delivery rates include **República Democrática del Congo** (62% of orders late), followed by:
